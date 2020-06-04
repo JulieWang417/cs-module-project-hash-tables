@@ -1,6 +1,12 @@
 def no_dups(s):
-    # Your code here
-
+    # Python dictionary method fromkeys() creates a new dictionary with keys from seq and values set to value.
+    # for example seq = ('name', 'age', 'sex')
+    # dict = dict.fromkeys(seq)
+    # return dict : {'age': None, 'name': None, 'sex': None}
+    s = s.split()
+    s = list(dict.fromkeys(s))
+    s = " ".join(s)
+    return s
 
 
 if __name__ == "__main__":

@@ -233,8 +233,8 @@ class HashTable:
                 new_ht.put(key,value)
                 item = item.next
         
-        #self.capacity = new_ht.capacity
-        #self.storage = new_ht.storage
+        self.capacity = new_ht.capacity
+        self.storage = new_ht.storage
 
 
 

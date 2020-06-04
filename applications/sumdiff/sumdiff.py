@@ -13,3 +13,21 @@ def f(x):
 
 # Your code here
 
+def sum_diff(numbers):
+    my_dict = {}
+    for i in range(0, len(numbers)):
+        my_dict[q[i]] = f(q[i])
+    
+    return my_dict
+
+"""
+
+def sum_diff(numbers):
+    my_dict = {"f(0)+f(0)": numbers[0] + numbers[0]}
+    for i in range(1, len(numbers)):
+        sum_1 = numbers[i] + numbers[i]
+        sum_2 = numbers[i] + numbers[i-1]
+    return my_dict
+"""
+
+print(sum_diff(q))
